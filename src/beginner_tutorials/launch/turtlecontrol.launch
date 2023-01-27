@@ -1,0 +1,12 @@
+<launch>
+
+    <group ns="turtlesim1">
+        <node pkg="turtlesim" name="sim" type="turtlesim_node"/>
+        Sleep(1000)
+    </group>
+
+    <group ns="turtlesim2">
+        <node pkg="turtlesim" name="sim" type="turtlesim_node"/>
+    </group>
+
+</launch>
